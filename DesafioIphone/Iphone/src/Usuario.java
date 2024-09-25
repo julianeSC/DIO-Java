@@ -27,8 +27,8 @@ public class Usuario {
                     break;
                 case 2:
                     System.out.println("DIGITE O NUMERO PARA  LIGAR");
-                    int telefone = scanner.nextInt();
-                    iphone.ligar(telefone);
+                    int numero = scanner.nextInt();
+                    iphone.ligar(numero);
                     iphone.atender();
                     iphone.iniciarCorreioVoz();
 
@@ -44,7 +44,7 @@ public class Usuario {
                     break;
 
                 default:
-                    System.out.println("Sistema encerrado");
+                    System.out.println("Por favor, digite o numero correto");
                     break;
             }
 
