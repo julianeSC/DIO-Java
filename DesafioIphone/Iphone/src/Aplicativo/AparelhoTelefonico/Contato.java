@@ -3,7 +3,7 @@ package Aplicativo.AparelhoTelefonico;
 public class Contato implements AparelhoTelefonico {
 
     @Override
-    public void ligar (int numero) {
+    public void ligar(int numero) {
         // TODO Auto-generated method stub
         System.out.println("Ligando "+numero);
     }
@@ -21,3 +21,5 @@ public class Contato implements AparelhoTelefonico {
     }
     
 }
+
+

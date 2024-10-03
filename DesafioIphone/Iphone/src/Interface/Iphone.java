@@ -61,7 +61,8 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     @Override
     public void iniciarCorreioVoz() {
         // TODO Auto-generated method stub
-        System.out.println("Ocorreio de voz iniciado ");
-        
+        System.out.println("Correio de voz iniciado...");
     }
 }
+
+    
